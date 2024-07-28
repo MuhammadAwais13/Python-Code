@@ -50,5 +50,13 @@ print(a.center(50)) #this will write every thing in a in center such that it wil
 print(a.endswith("asas"))# as our a string dosenot ends with aa so it will return -1
 
 
-#9-
+#9- find       it find the thing we provide in its bracket if it exist in this function 
+print(a.find("is"))
+# as a string contain is so it will print true 
+
+
+#10-index      same purpose like find only diff is that find gives -1 if required thing is not in string a 
+#but index gives runtime error
+print(a.index("isas")) #now it will give error
+
 
