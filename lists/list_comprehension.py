@@ -14,3 +14,10 @@ new_list=[x for x in list ]
 
 print(new_list)
 
+#if we do any changes to starting x it will it will accept values with modifications like this 
+
+new_list=[x.upper() for x in list ]
+#first values will be made upper then stored to new list
+print(new_list)
+
+
